@@ -8,7 +8,7 @@ Stress-test your agents with real adversarial scenarios, capture every execution
 Traditional observability shows you what happened.  
 **WatchLLM shows you how your agent fails under pressure — and lets you fix it.**
 
-[→ Try it live](https://watchllm.dev) • [Docs](https://docs.watchllm.dev) • [Dashboard](https://app.watchllm.dev)
+→ [Try it live](https://watchllm.dev) • [Docs](https://docs.watchllm.dev) • [Dashboard](https://app.watchllm.dev)
 
 ## Why WatchLLM
 
