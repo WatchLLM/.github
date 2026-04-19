@@ -1,17 +1,3 @@
-<div align="center">
+https://raw.githubusercontent.com/kaadipranav/kaadipranav/refs/heads/main/assets/bruh.png
 
-<pre>
-
-888       888            d8888      88888888888      .d8888b.       888    888       888          888          888b     d888 
-888       888           d88888          888         d88P  Y88b      888    888       888          888          8888b   d8888 
-888  d8b  888          d88P888          888         888    888      888    888       888          888          88888b.d88888 
-888 d888b 888         d88P 888          888         888             8888888888       888          888          888Y88888P888 
-888d88888b888        d88P  888          888         888             888    888       888          888          888 Y888P 888 
-88888P Y88888       d88P   888          888         888    888      888    888       888          888          888  Y8P  888 
-8888P   Y8888      d8888888888          888         Y88b  d88P      888    888       888          888          888       888 
-888P     Y888     d88P     888          888          "Y8888P"       888    888       88888888     88888888     888       888 
-
-</pre>
-
-</div>
-
+![Banner](https://raw.githubusercontent.com/kaadipranav/kaadipranav/refs/heads/main/assets/bruh.png)
