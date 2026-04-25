@@ -1,32 +1,45 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/edited.png"/>
+  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/edited.png" width="300"/>
 </p>
 
-# WATCHLLM
+<h1 align="center">WATCHLLM</h1>
 
-**Reliability infrastructure for AI agents.**
+<p align="center"><strong>Reliability infrastructure for AI agents.</strong></p>
 
-LLMs hallucinate. Agents fail silently. Chaos is inevitable —  
-WatchLLM makes sure you find out before your users do.
+<p align="center">
+LLMs hallucinate. Agents fail silently. Chaos is inevitable.<br/>
+<strong>WatchLLM makes sure you find out before your users do.</strong>
+</p>
 
 ---
 
 ## What we build
 
-| | |
-|---|---|
-| [`watchllm-sdk`](https://github.com/watchllm-dev/watchllm-sdk) | Python SDK and CLI. Drop into your agent pipeline, CI, or test suite. |
-| [`watchllm-docs`](https://github.com/watchllm-dev/watchllm-docs) | Integration guides, API reference, and architecture documentation. |
+<table>
+<tr>
+<td><a href="https://github.com/watchllm-dev/watchllm-sdk"><code>watchllm-sdk</code></a></td>
+<td>Python SDK + CLI. Drop into your agent pipeline, CI, or test suite.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/watchllm-dev/watchllm-docs"><code>watchllm-docs</code></a></td>
+<td>Integration guides, API reference, and architecture documentation.</td>
+</tr>
+</table>
 
 ---
 
 ## The problem
 
-Every AI agent ships with an implicit assumption: *it will behave the same way twice.*  
-It won't. Prompt sensitivity, model drift, tool call failures, context window edge cases —  
-production agents fail in ways that unit tests were never designed to catch.
+AI agents don’t fail loudly — they fail **silently, inconsistently, and unpredictably**.
 
-WatchLLM stress-tests your agents before they stress-test your reputation.
+* Prompt sensitivity
+* Model drift
+* Tool call failures
+* Context window edge cases
+
+Traditional testing doesn’t catch this.
+
+**WatchLLM stress-tests your agents before they stress-test your reputation.**
 
 ---
 
@@ -36,15 +49,22 @@ WatchLLM stress-tests your agents before they stress-test your reputation.
 chaos engine  →  trace analysis  →  severity scoring  →  CI gate
 ```
 
-Designed edge-native on Cloudflare Workers. Zero cold starts. ₹0 until you scale.
+* Edge-native (Cloudflare Workers)
+* Zero cold starts
+* Scales only when you do
 
 ---
 
 ## Status
 
-Early access. Building in public.  
-[watchllm.dev](https://watchllm.dev) — join the waitlist.
+Early access. Building in public.
+
+<p align="center">
+  <a href="https://watchllm.dev"><strong>Join the waitlist →</strong></a>
+</p>
 
 ---
 
-<sub>Built by [@kaadz](https://kaadz.me)</sub>
+<p align="center">
+<sub>Built by <a href="https://kaadz.me">@kaadz</a></sub>
+</p>
