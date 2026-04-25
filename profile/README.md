@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/edited.png" width="500"/>
 </p>
-
 ---
 
 <p align="center">
@@ -18,9 +17,9 @@
 <p align="center">
   <a href="https://watchllm.dev"><b>Join waitlist →</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/watchllm-dev/watchllm-docs"><b>Docs</b></a>
+  <a href="https://github.com/watchllm/watchllm-docs"><b>Docs</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/watchllm-dev/watchllm-sdk"><b>SDK</b></a>
+  <a href="https://github.com/watchllm/watchllm-sdks"><b>SDK</b></a>
 </p>
 
 ---
@@ -28,27 +27,20 @@
 ## What is WatchLLM?
 
 WatchLLM is a **chaos + observability layer for AI agents**.
-
-Not logs.
-Not evals.
-Not retries.
-
+Not logs, evals, retries.
 A system that **actively breaks your agent** before production does.
 
 ---
 
 ## Why this exists
 
-AI systems don’t fail like traditional software.
-
-They fail:
+AI systems don’t fail like traditional software. They fail:
 
 * inconsistently
 * silently
 * under edge conditions you didn’t simulate
 
 You can pass 100 tests and still ship a broken agent.
-
 WatchLLM closes that gap.
 
 ---
