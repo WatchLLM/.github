@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/edited.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/edited%20(1).png" width="450"/>
 </p>
 
 ---
