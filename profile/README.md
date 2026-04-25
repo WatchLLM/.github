@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/edited.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/edited.png" width="500"/>
 </p>
+
 ---
+
 <p align="center">
   <strong>Reliability infrastructure for AI agents</strong>
 </p>
