@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/edited%20(1).png" width="450"/>
 </p>
 
----
-
 <p align="center">
   <strong>Reliability infrastructure for AI agents</strong>
 </p>
