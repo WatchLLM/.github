@@ -1,4 +1,14 @@
-# WatchLLM
+﻿# WatchLLM
+
+```text
+ __        __    _       _     _     _     __  __
+ \ \      / /_ _| |_ ___| |__ | |   | |   |  \/  |
+  \ \ /\ / / _` | __/ __| '_ \| |   | |   | |\/| |
+   \ V  V / (_| | || (__| | | | |___| |___| |  | |
+    \_/\_/ \__,_|\__\___|_| |_|_____|_____|_|  |_|
+```
+
+
 
 ### Deterministic Write-Path Governance Layer for AI-Generated Code
 
@@ -8,7 +18,7 @@ By intercepting code modifications **at the save boundary**, WatchLLM provides l
 
 ---
 
-## 🏛️ System Architecture
+## ðŸ›ï¸ System Architecture
 
 ```
                        [ Developer Environment ]
@@ -31,7 +41,7 @@ By intercepting code modifications **at the save boundary**, WatchLLM provides l
 
 ---
 
-## 📦 The Ecosystem
+## ðŸ“¦ The Ecosystem
 
 | Repository | Scope | Description |
 |---|---|---|
@@ -43,8 +53,9 @@ By intercepting code modifications **at the save boundary**, WatchLLM provides l
 
 ---
 
-## 🔒 Core Governance Principles
+## ðŸ”’ Core Governance Principles
 
 1.  **Deterministic Enforcement First**: Governance rules (like auth requirements and forbidden modules) must be absolute, deterministic, and executable locally.
 2.  **LLM is Explanation-Only**: Large Language Models must never decide whether code is blocked. They are restricted purely to telling developers *why* the deterministic engine blocked the change and *how* to resolve it.
 3.  **Local Independence**: Editor save interception must remain network-independent and complete in under 200ms, guaranteeing high productivity even in disconnected states.
+
