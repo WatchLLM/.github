@@ -1,61 +1,34 @@
-﻿# WatchLLM
-
-```text
- __        __    _       _     _     _     __  __
- \ \      / /_ _| |_ ___| |__ | |   | |   |  \/  |
-  \ \ /\ / / _` | __/ __| '_ \| |   | |   | |\/| |
-   \ V  V / (_| | || (__| | | | |___| |___| |  | |
-    \_/\_/ \__,_|\__\___|_| |_|_____|_____|_|  |_|
 ```
 
-
-
-### Deterministic Write-Path Governance Layer for AI-Generated Code
-
-WatchLLM is a security and governance gatekeeper designed to prevent AI coding assistants from introducing security vulnerabilities, broken module interfaces, or unauthorized boundary transgressions into production environments.
-
-By intercepting code modifications **at the save boundary**, WatchLLM provides local, instant deterministic checks, ensuring that governance decisions are final and fast, while utilizing Large Language Models exclusively for explanations and remedial guidance.
-
----
-
-## ðŸ›ï¸ System Architecture
-
-```
-                       [ Developer Environment ]
-                       
-  +---------------------------------------------------------------+
-  |  Editor Save / CLI check                                      |
-  |  --> Runs local AST traversal (Tree-sitter) (<10ms)           |
-  |  --> Validates Auth Rules, Secret Scans, & Boundaries         |
-  +-------------------------------+-------------------------------+
-                                  |
-                                  +--> [ Pass ] --> Ingest to Cloudflare Worker
-                                  |                 - Validates Clerk JWT
-                                  |                 - Saves session & diff to D1
-                                  |                 - Uploads raw code to R2
-                                  |
-                                  +--> [ Block ] -> Call Worker Explanation
-                                                    - LLM review violation
-                                                    - Suggests remedial fix
+                       888            888      888 888               
+                       888            888      888 888               
+                       888            888      888 888               
+888  888  888  8888b.  888888 .d8888b 88888b.  888 888 88888b.d88b.  
+888  888  888     "88b 888   d88P"    888 "88b 888 888 888 "888 "88b 
+888  888  888 .d888888 888   888      888  888 888 888 888  888  888 
+Y88b 888 d88P 888  888 Y88b. Y88b.    888  888 888 888 888  888  888 
+ "Y8888888P"  "Y888888  "Y888 "Y8888P 888  888 888 888 888  888  888
 ```
 
----
+# WatchLLM
 
-## ðŸ“¦ The Ecosystem
+Runtime governance and reliability infrastructure for autonomous software systems.
 
-| Repository | Scope | Description |
-|---|---|---|
-| **[WATCHLLM](https://github.com/WatchLLM/WATCHLLM)** | Public Core | Monorepo containing the CLI checking engine and the VS Code save-interception extension. |
-| **[watchllm-cloud](https://github.com/WatchLLM/watchllm-cloud)** | Private Cloud | Cloudflare Workers orchestrating ingestion logging, D1 persistence, R2 code storage, and LLM reviews. |
-| **[WATCHLLM-DOCS](https://github.com/WatchLLM/WATCHLLM-DOCS)** | Public Docs | Technical specifications, architecture decisions, and exhaustive manual setup guides. |
-| **[WATCHLLM-SDK-PYTHON](https://github.com/WatchLLM/WATCHLLM-SDK-PYTHON)** | SDK & Lib | Reusable Python SDK for programmatic rule evaluation and package-based CLI tooling. |
-| **[WATCHLLM-SDK-NODE](https://github.com/WatchLLM/WATCHLLM-SDK-NODE)** | SDK & Lib | Native Node.js SDK for JS/TS pipelines (Husky, pre-commits, custom linters). |
+> Agents are probabilistic. Infrastructure cannot be.
 
----
+## Canonical repositories
 
-## ðŸ”’ Core Governance Principles
+| Repository | Role |
+|------------|------|
+| [watchllm/kernel](https://github.com/watchllm/kernel) | Deterministic local enforcement engine |
+| [watchllm/klyd](https://github.com/watchllm/klyd) | Architectural memory |
+| [watchllm/replay](https://github.com/watchllm/replay) | Execution replay and forensics |
+| [watchllm/runtime](https://github.com/watchllm/runtime) | Governance-aware orchestration |
+| [watchllm/reliability](https://github.com/watchllm/reliability) | Adversarial evaluation |
+| [watchllm/schemas](https://github.com/watchllm/schemas) | Shared contracts |
+| [watchllm/docs](https://github.com/watchllm/docs) | Documentation hub |
+| [watchllm/examples](https://github.com/watchllm/examples) | Curated demonstrations |
+| [watchllm/benchmarks](https://github.com/watchllm/benchmarks) | Performance regression suite |
+| [watchllm/vscode](https://github.com/watchllm/vscode) | Editor integration |
 
-1.  **Deterministic Enforcement First**: Governance rules (like auth requirements and forbidden modules) must be absolute, deterministic, and executable locally.
-2.  **LLM is Explanation-Only**: Large Language Models must never decide whether code is blocked. They are restricted purely to telling developers *why* the deterministic engine blocked the change and *how* to resolve it.
-3.  **Local Independence**: Editor save interception must remain network-independent and complete in under 200ms, guaranteeing high productivity even in disconnected states.
-
+[watchllm.dev](https://watchllm.dev)
