@@ -1,4 +1,4 @@
-<p align="center">
+<center>
   <pre style="display: inline-block; text-align: left;">
                               888                    888          888     888
                               888                    888          888     888
@@ -9,7 +9,7 @@
 Y88b 888 d88P     888  888     Y88b.     Y88b.       888  888     888     888     888  888  888
  "Y8888888P"      "Y888888      "Y888     "Y8888P    888  888     888     888     888  888  888
   </pre>
-</p>
+</center>
 
 # WatchLLM
 
