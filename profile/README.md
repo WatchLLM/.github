@@ -1,5 +1,5 @@
 <p align="center">
-  <pre>
+  <pre style="display: inline-block; text-align: left;">
                               888                    888          888     888
                               888                    888          888     888
                               888                    888          888     888
