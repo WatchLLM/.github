@@ -1,10 +1,12 @@
 <center>
   <pre style="display: inline-block; text-align: left;">                                                                                   
-        '|| '||'  '|'        |        |''||''|      ..|'''.|    '||'  '||'    '||'         '||'         '||    ||'
-         '|. '|.  .'        |||          ||       .|'     '      ||    ||      ||           ||           |||  ||| 
-          ||  ||  |        |  ||         ||       ||             ||''''||      ||           ||           |'|..'|| 
-           ||| |||        .''''|.        ||       '|.      .     ||    ||      ||           ||           | '|' || 
-            |   |        .|.  .||.      .||.       ''|....'     .||.  .||.    .||.....|    .||.....|    .|. | .||.
+MMMM""MMM""MMM""MMMP"""""""MMM""""""""MMM'""""'YMMM""MMMMM""MMM""MMMMMMMMM""MMMMMMMMM"""""`'"""`YMMMM
+MMMM  MMM  MMM  MM' .mmmm  MMMmmm  mmmMM' .mmm. `MM  MMMMM  MMM  MMMMMMMMM  MMMMMMMMM  mm.  mm.  MMMM
+MMMM  MMP  MMP  MM         `MMMMM  MMMMM  MMMMMooMM         `MM  MMMMMMMMM  MMMMMMMMM  MMM  MMM  MMMM
+MMMM  MM'  MM' .MM  MMMMM  MMMMMM  MMMMM  MMMMMMMMM  MMMMM  MMM  MMMMMMMMM  MMMMMMMMM  MMM  MMM  MMMM
+MMMM  `' . '' .MMM  MMMMM  MMMMMM  MMMMM. `MMM' .MM  MMMMM  MMM  MMMMMMMMM  MMMMMMMMM  MMM  MMM  MMMM
+MMMM    .d  .dMMMM  MMMMM  MMMMMM  MMMMMM.     .dMM  MMMMM  MMM         MM         MM  MMM  MMM  MMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   </pre>
 </center>
 
