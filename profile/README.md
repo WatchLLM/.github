@@ -1,13 +1,14 @@
 <center>
   <pre style="display: inline-block; text-align: left;">                                                                                   
-MMMMMMMMMMMMMMMM""MMM""MMM""MMMP"""""""MMM""""""""MMM'""""'YMMM""MMMMM""MMM""MMMMMMMMM""MMMMMMMMM"""""`'"""`YMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMM  MMM  MMM  MM' .mmmm  MMMmmm  mmmMM' .mmm. `MM  MMMMM  MMM  MMMMMMMMM  MMMMMMMMM  mm.  mm.  MMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMM  MMP  MMP  MM         `MMMMM  MMMMM  MMMMMooMM         `MM  MMMMMMMMM  MMMMMMMMM  MMM  MMM  MMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMM  MM'  MM' .MM  MMMMM  MMMMMM  MMMMM  MMMMMMMMM  MMMMM  MMM  MMMMMMMMM  MMMMMMMMM  MMM  MMM  MMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMM  `' . '' .MMM  MMMMM  MMMMMM  MMMMM. `MMM' .MM  MMMMM  MMM  MMMMMMMMM  MMMMMMMMM  MMM  MMM  MMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMM    .d  .dMMMM  MMMMM  MMMMMM  MMMMMM.     .dMM  MMMMM  MMM         MM         MM  MMM  MMM  MMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-  </pre>
+888       888             d8888      88888888888       .d8888b.       888    888      888           888           888b     d888 
+888   o   888            d88888          888          d88P  Y88b      888    888      888           888           8888b   d8888 
+888  d8b  888           d88P888          888          888    888      888    888      888           888           88888b.d88888 
+888 d888b 888          d88P 888          888          888             8888888888      888           888           888Y88888P888 
+888d88888b888         d88P  888          888          888             888    888      888           888           888 Y888P 888 
+88888P Y88888        d88P   888          888          888    888      888    888      888           888           888  Y8P  888 
+8888P   Y8888       d8888888888          888          Y88b  d88P      888    888      888           888           888   "   888 
+888P     Y888      d88P     888          888           "Y8888P"       888    888      88888888      88888888      888       888 
+</pre>
 </center>
 
 # WatchLLM
