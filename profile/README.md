@@ -11,8 +11,6 @@
 </pre>
 </center>
 
-# WatchLLM
-
 **Runtime governance and reliability infrastructure for autonomous software systems.**
 
 > Agents are probabilistic. Infrastructure cannot be.
