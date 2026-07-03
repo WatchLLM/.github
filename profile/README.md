@@ -1,5 +1,6 @@
 <center>
-  <pre style="display: inline-block; text-align: left;">                                                                                   
+  <pre style="display: inline-block; text-align: left;">
+                                                                                   
 888       888            d8888     88888888888      .d8888b.       888    888      888           888          888b     d888 
 888   o   888           d88888         888         d88P  Y88b      888    888      888           888          8888b   d8888 
 888  d8b  888          d88P888         888         888    888      888    888      888           888          88888b.d88888 
@@ -8,16 +9,34 @@
 88888P Y88888       d88P   888         888         888    888      888    888      888           888          888  Y8P  888 
 8888P   Y8888      d8888888888         888         Y88b  d88P      888    888      888           888          888   "   888 
 888P     Y888     d88P     888         888          "Y8888P"       888    888      88888888      88888888     888       888 
-</pre>
+  </pre>
 </center>
 
 **Runtime governance and reliability infrastructure for autonomous software systems.**
 
 > Agents are probabilistic. Infrastructure cannot be.
 
-WatchLLM builds deterministic, local-first infrastructure that governs how autonomous coding agents read, write, and execute code â€” before unsafe changes reach disk.
+WatchLLM builds deterministic, local-first infrastructure that governs how autonomous coding agents read, write, and execute code — before unsafe changes reach disk.
 
-## Learn more
+## The Stack
 
-- Website: [watchllm.dev](https://watchllm.dev)
-- Documentation: [github.com/watchllm/docs](https://github.com/watchllm/docs)
+| Layer | Component | Description |
+|-------|-----------|-------------|
+| Governance | `kernel` | Deterministic local runtime enforcement engine (Python, Tree-sitter AST) |
+| Governance | `runtime` | High-performance Rust + Wasm implementation with JSON schema parity |
+| Orchestration | `orchestrator` | Policy graph, model routing, and sub-agent spawning |
+| Contracts | `schemas` | Central event, rule, policy, and violation schema contracts (v1) |
+| Memory | `klyd` | Persistent architectural memory — extract, store, enforce design decisions |
+| Observability | `replay` | Execution graph replay, DAG rendering, and runtime forensics |
+| Reliability | `reliability` | Adversarial stress-testing, prompt injection, and sandboxed evaluation |
+| Quality | `benchmarks` | Ecosystem-wide performance and regression benchmarking |
+| Editor | `vscode` | VS Code extension — save interception, diagnostics, and inline governance |
+| Docs | `docs` | Architecture, RFCs, threat model, roadmap, and gap analysis |
+| Demos | `examples` | Curated scenarios: secrets, boundary enforcement, auth flow |
+
+## Quick Links
+
+- 🌐 [watchllm.dev](https://watchllm.dev)
+- 📖 [Documentation](https://github.com/WatchLLM/docs)
+- 🏗️ [Monorepo](https://github.com/WatchLLM/WATCHLLM)
+- 📬 [support@watchllm.dev](mailto:support@watchllm.dev)
