@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/kaadipranav/kaadipranav/refs/heads/main/assets/img2.png"/>
 </div>
 
+<br></br>
 > Agents are probabilistic. Infrastructure cannot be.
 
 WatchLLM builds deterministic, local-first infrastructure that governs how autonomous coding agents read, write, and execute code — before unsafe changes reach disk.
